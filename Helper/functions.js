@@ -1,5 +1,5 @@
 const { Configuration, OpenAIApi } = require("openai");
-
+const BOT_NAME = process.env.BOT_NAME ?? "Clever";
 const configuration = new Configuration({
   apiKey: process.env.API,
 });
@@ -34,4 +34,4 @@ const getChat = async (text) => {
     console.log(error);
   }
 };
-module.exports = { openai, getImage,getChat };
+module.exports = { openai, getImage, getChat };

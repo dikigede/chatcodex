@@ -1,0 +1,1 @@
+{"version":2,"languages":{"nodejs-npm":{"specfileHash":"f152669a63debcdac4b6efabca622427","lockfileHash":"2213bc9028f76ba192ad826f6cc4f333","guessedImports":["dotenv","openai","telegraf"],"guessedImportsHash":"620815974af61349b707e98af8f9a6a5"}}}
